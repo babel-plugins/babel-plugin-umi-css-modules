@@ -1,0 +1,34 @@
+{
+  "name": "@babel-plugins/umi-css-modules",
+  "version": "0.0.1",
+  "description": "Babel plugin umi css modules",
+  "keywords": [
+    "umi",
+    "babel-plugin",
+    "css-modules"
+  ],
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "umi-test"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:babel-plugins/babel-plugin-umi-css-modules.git",
+  "author": "wangxingkang <wangxingkang@sensoro.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/traverse": "^7.5.5"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.5.5",
+    "@types/babel__core": "^7.1.3",
+    "@types/babel__traverse": "^7.0.7",
+    "@types/jest": "^24.0.18",
+    "father-build": "^1.8.0",
+    "typescript": "^3.6.2",
+    "umi-test": "^1.7.1"
+  }
+}
