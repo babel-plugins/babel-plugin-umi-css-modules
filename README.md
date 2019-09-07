@@ -1,5 +1,12 @@
 <h1 align="center">babel-plugin-umi-css-modules</h1>
 
+<div align="center">
+
+[![NPM version](https://img.shields.io/npm/v/@babel-plugins/umi-css-modules.svg?style=flat)](https://npmjs.org/package/@babel-plugins/umi-css-modules)
+[![NPM downloads](http://img.shields.io/npm/dm/@babel-plugins/umi-css-modules.svg?style=flat)](https://npmjs.org/package/@babel-plugins/umi-css-modules)
+
+</div>
+
 ## 项目由来
 
 umi通用解决方案 [issue](https://github.com/umijs/umi/issues/1417)
