@@ -1,6 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`babel-plugin-umi-css-modules work 1`] = `
-"var bar = 1;
+"import React from 'react';
+import styles from \\"./a.css?cssModules\\";
+import './b.css';
+let bar = 1;
 if (bar) console.log(bar);"
 `;

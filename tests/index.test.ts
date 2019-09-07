@@ -4,7 +4,11 @@ import plugin from '@/index';
 describe('babel-plugin-umi-css-modules', () => {
   it('work', () => {
     const example = `
-      var foo = 1;
+      import React from 'react';
+      import styles from './a.css';
+      import './b.css';
+      
+      let foo = 1;
       if (foo) console.log(foo);
     `;
 
