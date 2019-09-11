@@ -27,11 +27,6 @@ export default declare((
             node.source.value = getStyleFilePath(value);
           }
         }
-      },
-      Identifier(path) {
-        if (path.node.name === 'foo') {
-          path.node.name = 'bar';
-        }
       }
     }
   }
